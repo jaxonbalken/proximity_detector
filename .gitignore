@@ -1,0 +1,10 @@
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# macOS
+.DS_Store
