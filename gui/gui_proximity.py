@@ -2,14 +2,13 @@ import tkinter as tk
 import serial
 import threading
 
-# Update this with your Pyboard's actual port
-SERIAL_PORT = 'COM3'  # Or '/dev/ttyACM0' on Linux/macOS
+SERIAL_PORT = 'COM3'  # Change to match your Arduino port
 BAUD_RATE = 9600
 
 class ProximityGUI:
     def __init__(self, master):
         self.master = master
-        self.master.title("Proximity Sensor")
+        self.master.title("Arduino Proximity Sensor")
         self.label = tk.Label(master, text="Waiting for data...", font=("Arial", 24))
         self.label.pack(pady=40, padx=40)
 
