@@ -2,7 +2,7 @@ import tkinter as tk
 import serial
 import threading
 
-SERIAL_PORT = 'COM3'  # Change to match your Arduino port
+SERIAL_PORT = 'COM4'  # Change to match your Arduino port
 BAUD_RATE = 9600
 
 class ProximityGUI:
